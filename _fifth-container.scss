@@ -1,0 +1,110 @@
+.fifth-container {
+  max-width: 1200px;
+  margin: auto;
+  .fifth-container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .fifth-ctnr-text {
+      h3 {
+        font-family: "Avenir Next";
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 32.78px;
+        text-transform: uppercase;
+        color: #f3b562;
+      }
+
+      h1 {
+        font-family: Avenir Next;
+        font-size: 41px;
+        font-weight: 500;
+        line-height: 45.1px;
+        text-transform: uppercase;
+        color: #647b64;
+        margin-top: 17px;
+      }
+    }
+    .arrows {
+      display: flex;
+
+      .arrow-left {
+        margin-right: 20px;
+        span {
+          color: rgb(15, 116, 15);
+          cursor: pointer;
+        }
+      }
+      .right-arrow {
+        span {
+          color: rgb(15, 116, 15);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .fifth-container-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    .pink-jacket {
+      background: linear-gradient(0deg, #ffffff, #ffffff),
+        linear-gradient(
+          358.27deg,
+          rgba(100, 123, 100, 0.77) -118.86%,
+          rgba(100, 123, 100, 0) 25.62%,
+          rgba(100, 123, 100, 0) 98.53%
+        );
+    }
+    .women-container {
+      background: linear-gradient(0deg, #ffffff, #ffffff),
+        linear-gradient(
+          358.27deg,
+          rgba(100, 123, 100, 0.77) -118.86%,
+          rgba(100, 123, 100, 0) 25.62%,
+          rgba(100, 123, 100, 0) 98.53%
+        );
+    }
+    .philip-container {
+      background: linear-gradient(0deg, #ffffff, #ffffff),
+        linear-gradient(
+          358.27deg,
+          rgba(100, 123, 100, 0.77) -118.86%,
+          rgba(100, 123, 100, 0) 25.62%,
+          rgba(100, 123, 100, 0) 98.53%
+        );
+    }
+  }
+}
+
+.flex-item {
+  display: flex;
+}
+
+.fifth-container-same-span {
+  font-family: Avenir Next;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.56px;
+  color: rgba(51, 51, 51, 1);
+}
+
+.fifth-container-same-p {
+  font-family: Avenir Next;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17.16px;
+  letter-spacing: 0.04em;
+  color: rgba(79, 79, 79, 1);
+}
+
+.fifth-container-same-info {
+  font-family: Avenir Next;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 21.12px;
+  letter-spacing: 0.04em;
+  color: rgba(79, 79, 79, 1);
+}
