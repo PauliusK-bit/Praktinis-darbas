@@ -1,0 +1,121 @@
+@use "buttons";
+
+.second-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1000px;
+  margin: auto;
+  gap: 109px;
+
+  .second-container-item {
+    .scnd-container-text {
+      p {
+        font-family: "Avenir Next";
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 32.78px;
+        color: #f3b562;
+        text-transform: uppercase;
+      }
+      h2 {
+        font-family: "Avenir Next";
+        font-size: 41px;
+        font-weight: 500;
+        line-height: 45.1px;
+        text-transform: uppercase;
+        color: #647b64;
+      }
+    }
+    .second-text {
+      p {
+        font-family: Avenir Next;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.12px;
+        letter-spacing: 0.04em;
+        color: #4f4f4f;
+      }
+      .get-started {
+        @include buttons.get-started;
+
+        // img {
+        //   position: absolute;
+        //   left: 530px;
+        // }
+        // .get-started::before {
+        //   background-image: url(./images/Vector.svg);
+        // }
+      }
+    }
+  }
+
+  .second-container-aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    gap: 60px;
+    .aside-car-rental {
+      .rental-img {
+        width: 48px;
+        height: 48px;
+        border-radius: 8px;
+        background-color: #647b64;
+        text-align: center;
+        margin-bottom: 16px;
+        img {
+          margin: 10px;
+        }
+      }
+      .car-rental-text {
+      }
+    }
+    .aside-boat {
+      .boat-img {
+        width: 48px;
+        height: 48px;
+        border-radius: 8px;
+        opacity: 0px;
+        color: #ffffff;
+
+        img {
+          margin: 10px;
+        }
+      }
+    }
+
+    .aside-bus {
+      .bus-img {
+        width: 48px;
+        height: 48px;
+        border-radius: 8px;
+        opacity: 0px;
+        color: #ffffff;
+        img {
+          margin: 10px;
+        }
+      }
+    }
+  }
+}
+
+.same-text {
+  color: #333333;
+  font-family: "Avenir Next";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 27.84px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.same-txt {
+  margin-top: 6px;
+  font-family: "Avenir Next";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17.16px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

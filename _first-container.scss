@@ -1,0 +1,43 @@
+@use "buttons";
+
+.first-container {
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  .container-wrapper-text {
+    span {
+      font-family: Avenir Next;
+      font-size: 48px;
+      font-weight: 500;
+      line-height: 55.68px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+    p {
+      font-family: Avenir Next;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 26.4px;
+      letter-spacing: 0.04em;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+
+    .get-started {
+      @include buttons.get-started;
+      img {
+        position: absolute;
+        left: 530px;
+      }
+    }
+  }
+  .image-container-2 {
+    margin-left: 120px;
+    img {
+    }
+  }
+}
