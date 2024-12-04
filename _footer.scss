@@ -50,52 +50,57 @@
     }
   }
 
-  .footer-second-item {
-    padding: 97px 0px 102px 66px;
-    span {
-      font-family: Avenir Next;
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 30px;
-      color: rgba(100, 123, 100, 1);
-      margin-left: 38px;
-    }
-    ul {
-      list-style: none;
-      li {
+  .grid-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .footer-second-item {
+      padding: 97px 0px 102px 66px;
+      span {
         font-family: Avenir Next;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 26px;
-        text-align: left;
-        text-underline-position: from-font;
-        text-decoration-skip-ink: none;
-        margin-top: 12px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        color: rgba(100, 123, 100, 1);
+        margin-left: 38px;
+      }
+      ul {
+        list-style: none;
+        li {
+          font-family: Avenir Next;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 26px;
+          text-align: left;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+          margin-top: 12px;
+        }
       }
     }
-  }
 
-  .footer-third-item {
-    padding: 97px 0px 102px 66px;
-    span {
-      font-family: Avenir Next;
-      font-size: 20px;
-      font-weight: 500;
-      line-height: 30px;
-      color: rgba(100, 123, 100, 1);
-      margin-left: 38px;
-    }
-    ul {
-      list-style: none;
-      li {
+    .footer-third-item {
+      padding: 97px 0px 102px 66px;
+      span {
         font-family: Avenir Next;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 26px;
-        text-align: left;
-        text-underline-position: from-font;
-        text-decoration-skip-ink: none;
-        margin-top: 12px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+        color: rgba(100, 123, 100, 1);
+        margin-left: 38px;
+      }
+      ul {
+        list-style: none;
+        li {
+          font-family: Avenir Next;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 26px;
+          text-align: left;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+          margin-top: 12px;
+        }
       }
     }
   }

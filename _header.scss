@@ -35,6 +35,11 @@
         font-size: 16px;
         font-weight: 500;
         line-height: 20px;
+
+        &:hover {
+          text-decoration: underline;
+          color: rgb(0, 107, 36);
+        }
       }
       .register {
         @include buttons.register;
