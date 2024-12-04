@@ -9,6 +9,12 @@
 
   .second-container-item {
     .scnd-container-text {
+      position: relative;
+      img {
+        position: absolute;
+        right: -45px;
+        bottom: -20px;
+      }
       p {
         font-family: "Avenir Next";
         font-size: 24px;
@@ -37,14 +43,12 @@
       }
       .get-started {
         @include buttons.get-started;
-
-        // img {
-        //   position: absolute;
-        //   left: 530px;
-        // }
-        // .get-started::before {
-        //   background-image: url(./images/Vector.svg);
-        // }
+        position: relative;
+        img {
+          position: absolute;
+          top: 30px;
+          left: 290px;
+        }
       }
     }
   }

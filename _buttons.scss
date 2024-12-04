@@ -25,3 +25,20 @@
   border-radius: 2px;
   cursor: pointer;
 }
+
+@mixin send-message {
+  background: linear-gradient(102.3deg, #647b64 -4.62%, #66ac66 178.22%);
+  box-shadow: 0px 15.51px 31.01px 0px rgba(128, 143, 150, 0.19);
+  font-family: Avenir Next;
+  font-size: 12.41px;
+  font-weight: 600;
+  line-height: 15.57px;
+  letter-spacing: 0.155em;
+  text-align: left;
+  border: none;
+  color: rgba(254, 254, 254, 1);
+  text-transform: uppercase;
+  padding: 21px 137px 20px 22px;
+  border-radius: 2px;
+  cursor: pointer;
+}

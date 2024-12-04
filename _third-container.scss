@@ -1,3 +1,5 @@
+@use "responsive" as r;
+
 .third-container {
   max-width: 1200px;
   margin: auto;
@@ -25,8 +27,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
+    position: relative;
+
+    .absolute-img {
+      position: absolute;
+      z-index: 8;
+      bottom: -43px;
+      left: -33px;
+    }
 
     .items-first-container {
+      z-index: 20;
       border-radius: 8px;
       background: linear-gradient(0deg, #ffffff, #ffffff),
         linear-gradient(

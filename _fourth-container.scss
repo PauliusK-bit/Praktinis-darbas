@@ -7,6 +7,7 @@
   margin: auto;
   gap: 165px;
   align-items: center;
+  margin-top: 171px;
   .fourth-container-item {
     .fourth-container-item-img {
       img {
@@ -46,6 +47,12 @@
       .get-started {
         @include buttons.get-started;
         margin-top: 40px;
+        position: relative;
+        img {
+          position: absolute;
+          top: 30px;
+          left: 290px;
+        }
       }
     }
   }

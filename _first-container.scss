@@ -7,6 +7,14 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   .container-wrapper-text {
+    position: relative;
+    img {
+      position: absolute;
+
+      left: 130px;
+      top: -25px;
+    }
+
     span {
       font-family: Avenir Next;
       font-size: 48px;
@@ -29,9 +37,11 @@
 
     .get-started {
       @include buttons.get-started;
+      position: relative;
       img {
         position: absolute;
-        left: 530px;
+        top: 30px;
+        left: 290px;
       }
     }
   }

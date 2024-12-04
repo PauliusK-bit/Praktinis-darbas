@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  background: rgb(255, 255, 255);
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -50,6 +55,14 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
 }
+.first-container .container-wrapper-text {
+  position: relative;
+}
+.first-container .container-wrapper-text img {
+  position: absolute;
+  left: 130px;
+  top: -25px;
+}
 .first-container .container-wrapper-text span {
   font-family: Avenir Next;
   font-size: 48px;
@@ -84,10 +97,12 @@
   border: none;
   border-radius: 2px;
   cursor: pointer;
+  position: relative;
 }
 .first-container .container-wrapper-text .get-started img {
   position: absolute;
-  left: 530px;
+  top: 30px;
+  left: 290px;
 }
 .first-container .image-container-2 {
   margin-left: 120px;
@@ -98,6 +113,14 @@
   max-width: 1000px;
   margin: auto;
   gap: 109px;
+}
+.second-container .second-container-item .scnd-container-text {
+  position: relative;
+}
+.second-container .second-container-item .scnd-container-text img {
+  position: absolute;
+  right: -45px;
+  bottom: -20px;
 }
 .second-container .second-container-item .scnd-container-text p {
   font-family: "Avenir Next";
@@ -136,6 +159,12 @@
   border: none;
   border-radius: 2px;
   cursor: pointer;
+  position: relative;
+}
+.second-container .second-container-item .second-text .get-started img {
+  position: absolute;
+  top: 30px;
+  left: 290px;
 }
 .second-container .second-container-aside {
   display: grid;
@@ -226,8 +255,16 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
+  position: relative;
+}
+.third-container .third-container-items .absolute-img {
+  position: absolute;
+  z-index: 8;
+  bottom: -43px;
+  left: -33px;
 }
 .third-container .third-container-items .items-first-container {
+  z-index: 20;
   border-radius: 8px;
   background: linear-gradient(0deg, #ffffff, #ffffff), linear-gradient(358.27deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0) 25.62%, rgba(100, 123, 100, 0) 98.53%);
 }
@@ -323,6 +360,7 @@
   margin: auto;
   gap: 165px;
   align-items: center;
+  margin-top: 171px;
 }
 .fourth-container .fourth-container-item .fourth-container-item-img img {
   width: 563px;
@@ -368,6 +406,12 @@
   border-radius: 2px;
   cursor: pointer;
   margin-top: 40px;
+  position: relative;
+}
+.fourth-container .fourth-container-itm .item-container-text .get-started img {
+  position: absolute;
+  top: 30px;
+  left: 290px;
 }
 
 .fifth-container {
@@ -422,7 +466,8 @@
   background: linear-gradient(0deg, #ffffff, #ffffff), linear-gradient(358.27deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0) 25.62%, rgba(100, 123, 100, 0) 98.53%);
 }
 .fifth-container .fifth-container-items .philip-container {
-  background: linear-gradient(0deg, #ffffff, #ffffff), linear-gradient(358.27deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0) 25.62%, rgba(100, 123, 100, 0) 98.53%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(14deg, rgb(255, 255, 255) 0%, rgb(92, 55, 51) 83%, rgb(255, 255, 255) 87%);
 }
 
 .flex-item {
@@ -458,4 +503,138 @@
 
 .footer-container {
   background: rgb(240, 220, 197);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer-container .footer-first-item {
+  padding: 100px 0px 102px 140px;
+}
+.footer-container .footer-first-item .footer-flex {
+  display: flex;
+}
+.footer-container .footer-first-item .footer-flex .img-text-footer {
+  margin-right: 12px;
+}
+.footer-container .footer-first-item .footer-flex .img-text-footer img {
+  width: 48.4px;
+  height: 35.08px;
+}
+.footer-container .footer-first-item .footer-flex .bold-text p {
+  color: rgb(100, 123, 100);
+  text-transform: uppercase;
+}
+.footer-container .footer-first-item p {
+  font-family: Avenir Next;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.48px;
+  letter-spacing: 0.04em;
+  color: rgb(79, 79, 79);
+  margin: 0;
+  margin-top: 16px;
+}
+.footer-container .footer-first-item .socials {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 19px;
+}
+.footer-container .footer-first-item .socials .instagram {
+  width: 32px;
+  height: 32px;
+}
+.footer-container .footer-second-item {
+  padding: 97px 0px 102px 66px;
+}
+.footer-container .footer-second-item span {
+  font-family: Avenir Next;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgb(100, 123, 100);
+  margin-left: 38px;
+}
+.footer-container .footer-second-item ul {
+  list-style: none;
+}
+.footer-container .footer-second-item ul li {
+  font-family: Avenir Next;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  margin-top: 12px;
+}
+.footer-container .footer-third-item {
+  padding: 97px 0px 102px 66px;
+}
+.footer-container .footer-third-item span {
+  font-family: Avenir Next;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: rgb(100, 123, 100);
+  margin-left: 38px;
+}
+.footer-container .footer-third-item ul {
+  list-style: none;
+}
+.footer-container .footer-third-item ul li {
+  font-family: Avenir Next;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  margin-top: 12px;
+}
+.footer-container .footer-fourth-item {
+  padding: 103px 140px 97px 120px;
+}
+.footer-container .footer-fourth-item span {
+  font-family: "Avenir Next";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: rgb(100, 123, 100);
+  text-transform: uppercase;
+}
+.footer-container .footer-fourth-item input {
+  width: 283px;
+  height: 113px;
+  border-radius: 2px;
+  border: none;
+  margin-top: 13px;
+}
+.footer-container .footer-fourth-item .send-message {
+  background: linear-gradient(102.3deg, #647b64 -4.62%, #66ac66 178.22%);
+  box-shadow: 0px 15.51px 31.01px 0px rgba(128, 143, 150, 0.19);
+  font-family: Avenir Next;
+  font-size: 12.41px;
+  font-weight: 600;
+  line-height: 15.57px;
+  letter-spacing: 0.155em;
+  text-align: left;
+  border: none;
+  color: rgb(254, 254, 254);
+  text-transform: uppercase;
+  padding: 21px 137px 20px 22px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 28px;
+  position: relative;
+}
+.footer-container .footer-fourth-item .send-message img {
+  position: absolute;
+  top: 20px;
+  left: 220px;
 }/*# sourceMappingURL=style.css.map */
