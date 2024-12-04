@@ -172,6 +172,17 @@ body {
   align-content: center;
   gap: 60px;
 }
+.second-container .second-container-aside .aside-car-rental {
+  width: 288px;
+  height: 237px;
+  border-radius: 8px;
+}
+.second-container .second-container-aside .aside-car-rental:hover {
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 57%, rgba(154, 163, 158, 0.717603211) 100%);
+  box-shadow: 0px 5.87px 31.33px 0px rgba(155, 148, 148, 0.168627451);
+}
 .second-container .second-container-aside .aside-car-rental .rental-img {
   width: 48px;
   height: 48px;
@@ -183,6 +194,17 @@ body {
 .second-container .second-container-aside .aside-car-rental .rental-img img {
   margin: 10px;
 }
+.second-container .second-container-aside .aside-boat {
+  width: 288px;
+  height: 237px;
+  border-radius: 8px;
+}
+.second-container .second-container-aside .aside-boat:hover {
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 57%, rgba(154, 163, 158, 0.717603211) 100%);
+  box-shadow: 0px 5.87px 31.33px 0px rgba(155, 148, 148, 0.168627451);
+}
 .second-container .second-container-aside .aside-boat .boat-img {
   width: 48px;
   height: 48px;
@@ -193,6 +215,17 @@ body {
 .second-container .second-container-aside .aside-boat .boat-img img {
   margin: 10px;
 }
+.second-container .second-container-aside .aside-bus {
+  width: 288px;
+  height: 237px;
+  border-radius: 8px;
+}
+.second-container .second-container-aside .aside-bus:hover {
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 57%, rgba(154, 163, 158, 0.717603211) 100%);
+  box-shadow: 0px 5.87px 31.33px 0px rgba(155, 148, 148, 0.168627451);
+}
 .second-container .second-container-aside .aside-bus .bus-img {
   width: 48px;
   height: 48px;
@@ -202,6 +235,17 @@ body {
 }
 .second-container .second-container-aside .aside-bus .bus-img img {
   margin: 10px;
+}
+.second-container .second-container-aside .aside-road {
+  width: 288px;
+  height: 237px;
+  border-radius: 8px;
+}
+.second-container .second-container-aside .aside-road:hover {
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 57%, rgba(154, 163, 158, 0.717603211) 100%);
+  box-shadow: 0px 5.87px 31.33px 0px rgba(155, 148, 148, 0.168627451);
 }
 
 .same-text {
@@ -446,9 +490,29 @@ body {
 .fifth-container .fifth-container-header .arrows .arrow-left {
   margin-right: 20px;
 }
+.fifth-container .fifth-container-header .arrows .arrow-left:hover {
+  background-color: green;
+  border-radius: 50px;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+}
+.fifth-container .fifth-container-header .arrows .arrow-left:hover span {
+  color: white;
+}
 .fifth-container .fifth-container-header .arrows .arrow-left span {
   color: rgb(15, 116, 15);
   cursor: pointer;
+}
+.fifth-container .fifth-container-header .arrows .right-arrow:hover {
+  background-color: green;
+  border-radius: 50px;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+}
+.fifth-container .fifth-container-header .arrows .right-arrow:hover span {
+  color: white;
 }
 .fifth-container .fifth-container-header .arrows .right-arrow span {
   color: rgb(15, 116, 15);
@@ -460,14 +524,16 @@ body {
   gap: 40px;
 }
 .fifth-container .fifth-container-items .pink-jacket {
-  background: linear-gradient(0deg, #ffffff, #ffffff), linear-gradient(358.27deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0) 25.62%, rgba(100, 123, 100, 0) 98.53%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 19%, rgb(100, 123, 100) 100%);
 }
 .fifth-container .fifth-container-items .women-container {
-  background: linear-gradient(0deg, #ffffff, #ffffff), linear-gradient(358.27deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0) 25.62%, rgba(100, 123, 100, 0) 98.53%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 19%, rgb(100, 123, 100) 100%);
 }
 .fifth-container .fifth-container-items .philip-container {
   background: rgb(255, 255, 255);
-  background: linear-gradient(14deg, rgb(255, 255, 255) 0%, rgb(92, 55, 51) 83%, rgb(255, 255, 255) 87%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 19%, rgb(100, 123, 100) 100%);
 }
 
 .flex-item {
