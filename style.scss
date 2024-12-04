@@ -6,3 +6,73 @@
 @use "fourth-container";
 @use "fifth-container";
 @use "footer";
+@use "responsive" as r;
+
+.second-container {
+  display: grid;
+  @include r.lg {
+    grid-template-columns: 1fr;
+
+    .second-container-item {
+      .scnd-container-text {
+        img {
+          right: 346px;
+        }
+      }
+    }
+  }
+}
+
+.third-container {
+  .third-container-items {
+    @include r.xl {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include r.md {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.fourth-container {
+  @include r.xl {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
+}
+
+.fifth-container {
+  .fifth-container-items {
+    @include r.xl {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+
+    @include r.md {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.footer-container {
+  display: grid;
+  @include r.xl {
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .footer-fourth-item {
+      padding: 0px 140px 97px 120px;
+    }
+  }
+
+  @include r.lg {
+    grid-template-columns: 1fr 1fr;
+
+    .footer-third-item {
+      padding: 0px 0px 102px 112px;
+    }
+  }
+}
